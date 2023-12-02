@@ -13,22 +13,19 @@ SOURCES += \
     main.cpp \
     mainwindow.cpp \
     newid.cpp \
-    secwindow.cpp \
-    valwindow.cpp
+    secwindow.cpp
 
 HEADERS += \
     fileswindow.h \
     mainwindow.h \
     newid.h \
-    secwindow.h \
-    valwindow.h
+    secwindow.h
 
 FORMS += \
     fileswindow.ui \
     mainwindow.ui \
     newid.ui \
-    secwindow.ui \
-    valwindow.ui
+    secwindow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
